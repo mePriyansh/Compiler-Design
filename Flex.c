@@ -1,3 +1,10 @@
+/*How to run:
+  1)Create a file using vim - vi file1.l
+  2) Make it lex- lex file1.l
+  3) Use Gcc - gcc file1.c
+  4) Run using ./a.out*/
+  
+
 %{
 
 %}
@@ -53,3 +60,11 @@ int main(){
 yylex();
 return 0;
 }
+
+
+/* I/p:a123
+  O/p: a IDENTIFIER
+       1 IDENTIFIER
+       2 IDENTIFIER
+       3 IDENTIFIER
+  */
