@@ -46,3 +46,9 @@ int main() {
 }
 
 
+/*
+I/p:abc456
+o/p: Identifier: abc
+    Integer: 456*/
+    
+    
