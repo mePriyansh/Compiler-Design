@@ -13,8 +13,6 @@ public static String generateIfCode(String condition, String action) {
 StringBuilder codeBuilder = new StringBuilder();
 // Add the if statement
 
-32
-
 codeBuilder.append("if (").append(condition).append(") {\n");
 // Add the action inside the if block
 codeBuilder.append("\t").append(action).append("\n");
